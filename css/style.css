@@ -38,6 +38,16 @@ header nav {
     display: none;
 }
 
+.button {
+    border-radius: 15px;
+    padding: 5px 12px;
+}
+
+.flex-nav a.bg-white {
+    color: black;
+    background-color: white;
+}    
+
 
 /* HEADER versione desktop */
 @media all and (min-width:1025px) {
@@ -64,14 +74,137 @@ header nav {
         color: white;
         font-size: 15px;
     }
+}
 
-    .button {
-        border-radius: 15px;
-        padding: 5px 12px;
+
+
+/* MAIN */
+main {
+    height: calc(100vh - 80px);
+    overflow-y: auto;
+    padding-top: 50px;
+}
+
+/* sezione funzionalità */
+section {
+    padding-bottom: 30px;
+}
+
+.col {
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    background-color: #b5ddff;
+    padding: 20px;
+}
+
+.left {
+    text-align: center;
+}
+
+.mar-20 {
+    margin-bottom: 20px;
+}
+
+.mar-40 {
+    margin-bottom: 40px;
+}
+
+.sub-title {
+    font-size: 25px;
+    color: #0084fd;
+}
+
+.text {
+    font-size: 15px;
+    font-weight: 800;
+    color: #5a6e7f;
+    line-height: 200%;
+}
+
+.bg-blue {
+    background-color: #0084fd;
+    padding: 8px 40px;
+    color: white;
+    font-size: 20px;
+}
+
+.button .icon {
+    margin-right: 10px;
+}
+
+.img-phone {
+    margin: 0 auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.img-phone img {
+    width: 80%;
+    padding-top: 40px;
+}
+
+.functions .col:first-child {
+    padding-bottom: 0;
+}
+
+.big-icon {
+    font-size: 100px;
+    margin-top: 20px;
+    color: #0084fd;
+}
+
+
+/* MAIN versione tablet */
+@media all and (min-width:768px) {
+    .functions .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        flex-wrap: wrap;
     }
 
-    .flex-nav a.bg-white {
-        color: black;
-        background-color: white;
-    }    
+    .functions .col {
+        width: calc(100% / 3 - 10px);
+        margin-bottom: 15px;
+    }
+    
+    .functions .col:first-child {
+        width: calc(100% / 3 * 2 - 5px);
+    }
+
+    .left,
+    .img-phone {
+        text-align: left;
+    }
+
+    .img-phone img {
+        width: 50%;
+    } 
+}
+
+/* MAIN versione desktop */
+@media all and (min-width:1025px) {
+    .functions .col:first-child {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .left {
+        width: calc(50% - 20px);
+        padding-bottom: 30px;
+    }
+
+    .img-phone {
+        width: calc(50% - 20px);
+        padding-bottom: 0;
+        align-self: flex-end;
+    }
+    
+    .img-phone img {
+        width: 100%;
+    }
 }
