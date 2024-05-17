@@ -304,17 +304,17 @@ div.left.center .text {
     margin-bottom: var(--mar-40);
 }
 
-.benefits .big-title {
+.big-title {
     font-size: 60px;
 }
 
-.benefits .big-title,
+.big-title,
 .benefits .sub-title,
 .benefits .button {
     font-weight: var(--bold);
 }
 
-.benefits .big-title,
+.big-title,
 .benefits .sub-title,
 .benefits .text {
     margin-bottom: var(--mar-20);
@@ -325,6 +325,48 @@ div.left.center .text {
     padding: 7px 40px;
 }
 
+/* sezione about us */
+.about-us .big-title,
+.about-us .sub-title {
+    color: var(--purple);
+}
+
+.about-us .text,
+.about-us .img-partners,
+.about-us .sub-title {
+    margin-bottom: var(--mar-40);
+}
+
+.about-us .img-partners {
+    margin-left: 0;
+    position: relative;
+}
+
+.about-right .fa-quote-left {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 700;
+}
+
+.about-us .sub-title,
+.about-right .button {
+    font-weight: var(--bold);
+}
+
+.about-right {
+    text-align: var(--left);
+}
+
+.about-right .button {
+    color: var(--white);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.fa-linkedin {
+    margin-right: 5px;
+}
 
 
 
