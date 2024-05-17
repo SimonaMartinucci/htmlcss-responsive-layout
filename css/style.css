@@ -133,11 +133,9 @@ section {
     margin-right: 10px;
 }
 
-.img-phone {
-    margin: 0 auto;
-}
-
 .img-phone img {
+    display: block;
+    margin: 0 auto;
     width: 80%;
     padding-top: 40px;
 }
@@ -216,13 +214,18 @@ section {
         width: calc(100% / 3 * 2 - 5px);
     }
 
-    .left,
-    .img-phone {
+    .left {
         text-align: left;
     }
 
+    .img-phone {
+        padding-bottom: 0;
+    }
+
     .img-phone img {
+        display: block;
         width: 50%;
+        margin-left: 10px;
     } 
 
     /* sezione planning */
@@ -247,12 +250,12 @@ section {
 
     .img-phone {
         width: calc(50% - 20px);
-        padding-bottom: 0;
         align-self: flex-end;
     }
     
     .img-phone img {
-        width: 100%;
+        width: 80%;
+        display: block;
     }
 
     /* sezione planning */
