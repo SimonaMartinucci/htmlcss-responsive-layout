@@ -391,6 +391,19 @@ div.left.center .text {
     .quote-partners {
         width: 60%;
     }
+
+    /* sezione benefits */
+    .benefits .row {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .benefits .col {
+        width: calc(50% - 10px);
+        margin-bottom: 10px;
+    }
 }
 
 /* MAIN versione desktop */
@@ -451,6 +464,11 @@ div.left.center .text {
 
     .plan-right .text {
         font-size: 10px;
+    }
+
+    /* sezione benefits */
+    .benefits .col {
+        width: calc(100% / 3 - 10px);
     }
 
 
