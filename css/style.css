@@ -22,6 +22,11 @@ a {
     text-decoration: none;
 }
 
+#content {
+    height: calc(100vh - 80px);
+    overflow-y: auto;
+}
+
 
 
 /* HEADER */
@@ -92,10 +97,6 @@ header nav {
 
 
 /* MAIN */
-main {
-    height: calc(100vh - 80px);
-    overflow-y: auto;
-}
 
 /* sezione funzionalità */
 section {
@@ -402,10 +403,13 @@ div.left.center .text {
     padding: 15px 50px;
 }
 
+.small-text {
+    font-size: 12px;
+}
+
 .free .small-text {
     margin-top: var(--mar-40);
     margin-bottom: var(--mar-20);
-    font-size: 12px;
 }
 
 .small-text i {
@@ -416,7 +420,6 @@ div.left.center .text {
 .underline {
     text-decoration: underline;
 }
-
 
 
 /* MAIN versione tablet */
@@ -511,12 +514,10 @@ div.left.center .text {
     }
 
     /* sezione free */
-    .free .container {
-        width: 70%;
+    .small-container {
+        width: 50%;
+        margin: 0 auto;
     }
-
-
-
 }
 
 /* MAIN versione desktop */
@@ -585,9 +586,45 @@ div.left.center .text {
     }
 
     /* sezione free */
-    .free .container {
+    .small-container {
         width: 30%;
     }
+}
 
 
+
+/* FOOTER */
+footer {
+    background-color: #333333;
+    color: var(--white);
+    text-align: var(--center);
+}
+
+footer .small-container {
+    padding: 40px 0;
+}
+
+.small-container .text:first-child {
+    margin-bottom: 30px;
+}
+
+
+footer .underline {
+    color: var(--purple);
+}
+
+
+/* FOOTER versione tablet */
+@media all and (min-width:768px) {
+    .small-container {
+        width: 70%;
+    }
+}
+
+
+/* FOOTER versione desktop */
+@media all and (min-width:1025px) {
+    .small-container {
+        width: 30%;
+    }
 }
