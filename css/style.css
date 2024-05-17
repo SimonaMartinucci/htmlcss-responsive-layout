@@ -596,6 +596,8 @@ footer {
 }
 
 footer .small-container {
+    width: 80%;
+    margin: 0 auto;
     padding: 40px 0;
 }
 
@@ -606,12 +608,18 @@ footer .small-container {
 
 footer .underline {
     color: var(--purple);
+    display: inline-block;
+}
+
+.circle:after {
+    content: "\25CF";
+    margin: 0 3px;
 }
 
 
 /* FOOTER versione tablet */
 @media all and (min-width:768px) {
-    .small-container {
+    footer .small-container {
         width: 70%;
     }
 }
@@ -619,7 +627,7 @@ footer .underline {
 
 /* FOOTER versione desktop */
 @media all and (min-width:1025px) {
-    .small-container {
+    footer .small-container {
         width: 30%;
     }
 }
