@@ -446,6 +446,24 @@ div.left.center .text {
         width: calc(50% - 10px);
         margin-bottom: 10px;
     }
+
+    /* sezione about us */
+    .about-us .row {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .about-left {
+        width: 50%;
+    }
+
+    .about-right {
+        width: 40%;
+    }
+
+
+
 }
 
 /* MAIN versione desktop */
