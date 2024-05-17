@@ -368,6 +368,54 @@ div.left.center .text {
     margin-right: 5px;
 }
 
+/* sezione free */
+.free {
+    background-color: var(--purple);
+    text-align: var(--center);
+    color: var(--white);
+}
+
+.free .upper-title {
+    margin-bottom: var(--mar-20);
+    color: #cbc9f1;
+}
+
+.free .sub-title,
+.free .big-title,
+.free .text {
+    margin-bottom: var(--mar-40);
+}
+
+.free .sub-title,
+.free .big-title,
+.free .button {
+    font-weight: var(--bold);
+}
+
+.free .big-title {
+    color: #fdc15f;
+}
+
+.free .button {
+    background-color: var(--white);
+    color: var(--purple);
+    padding: 15px 50px;
+}
+
+.free .small-text {
+    margin-top: var(--mar-40);
+    margin-bottom: var(--mar-20);
+    font-size: 12px;
+}
+
+.small-text i {
+    font-size: 5px;
+    margin: 0 3px;
+}
+
+.underline {
+    text-decoration: underline;
+}
 
 
 
@@ -462,6 +510,11 @@ div.left.center .text {
         width: 40%;
     }
 
+    /* sezione free */
+    .free .container {
+        width: 70%;
+    }
+
 
 
 }
@@ -529,6 +582,11 @@ div.left.center .text {
     /* sezione benefits */
     .benefits .col {
         width: calc(100% / 3 - 10px);
+    }
+
+    /* sezione free */
+    .free .container {
+        width: 30%;
     }
 
 
