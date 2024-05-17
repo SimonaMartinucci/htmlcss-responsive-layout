@@ -5,6 +5,7 @@
     font-family: "PT Sans", sans-serif;
 }
 
+/* custom properties */
 :root {
     --blue: #0084fd;
     --light-blue: #b5ddff;
@@ -13,9 +14,6 @@
     --bold: 800;
     --mar-20: 20px;
     --mar-40: 40px;
-    --center: center;
-    --left: left;
-    --right: right;
 }
 
 a {
@@ -112,12 +110,9 @@ section {
     padding: 20px;
 }
 
-.functions .first-card {
-    text-align: var(--center);
-}
-
+.functions .first-card,
 .functions .card {
-    text-align: var(--center);
+    text-align: center;
 }
 
 .sub-title {
@@ -205,7 +200,7 @@ div.left.center .text {
 
 .plan-right {
     padding-bottom: 40px;
-    text-align: var(--center);
+    text-align: center;
 }
 
 .plan-right img {
@@ -231,7 +226,7 @@ div.left.center .text {
 
 /* sezione partners */
 .partners {
-    text-align: var(--center);
+    text-align: center;
 }
 
 .upper-title,
@@ -297,7 +292,7 @@ div.left.center .text {
 }
 
 .benefits .title {
-    text-align: var(--center);
+    text-align: center;
 }
 
 .benefits .col {
@@ -356,7 +351,7 @@ div.left.center .text {
 }
 
 .about-right {
-    text-align: var(--left);
+    text-align: left;
 }
 
 .about-right .button {
@@ -372,7 +367,7 @@ div.left.center .text {
 /* sezione free */
 .free {
     background-color: var(--purple);
-    text-align: var(--center);
+    text-align: center;
     color: var(--white);
 }
 
@@ -442,7 +437,7 @@ div.left.center .text {
     }
 
     .functions .first-card {
-        text-align: var(--left);
+        text-align: left;
     }
 
     .img-phone {
@@ -465,7 +460,7 @@ div.left.center .text {
         display: flex;
         align-items: center;
         gap: 20px;
-        text-align: var(--left);
+        text-align: left;
     }
 
     .img-partners {
@@ -597,7 +592,7 @@ div.left.center .text {
 footer {
     background-color: #333333;
     color: var(--white);
-    text-align: var(--center);
+    text-align: center;
 }
 
 footer .small-container {
