@@ -179,30 +179,36 @@ div.left.center .text {
 
 
 /* sezione planning */
-.bg-purple {
-    background-color: #9792e4;
+.planning {
+    background-color: var(--purple);
 }
 
 .planning img {
     width: 100%;
+    margin-bottom: var(--mar-40);
 }
 
 .plan-left .sub-title,
 .plan-left .text {
-    color: white;
+    color: var(--white);
 }
 
-.plan-left .text,
-.plan-right .text {
+.planning .text {
     font-weight: 200;
+    margin-bottom: var(--mar-40);
 }
 
 .planning .col {
-    background-color: white;
+    background-color: var(--white);
 }
 
 .plan-right {
     padding-bottom: 40px;
+    text-align: var(--center);
+}
+
+.plan-right img {
+    margin-bottom: var(--mar-20);
 }
 
 .plan-right .sub-title,
@@ -218,6 +224,7 @@ div.left.center .text {
     border-radius: 50%;
     color: black;
     padding: 10px 15px;
+    background-color: var(--purple);
 }
 
 
@@ -320,6 +327,4 @@ div.left.center .text {
     .plan-right .text {
         font-size: 10px;
     }
-
-
 }
