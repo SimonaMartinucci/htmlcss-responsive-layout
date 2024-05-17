@@ -285,6 +285,48 @@ div.left.center .text {
     margin-bottom: var(--mar-20);
 }
 
+.benefits {
+    background-color: var(--purple);
+    color: var(--purple);
+}
+
+.benefits .title,
+.benefits a.button {
+    color: var(--white);
+}
+
+.benefits .title {
+    text-align: var(--center);
+}
+
+.benefits .col {
+    background-color: var(--white);
+    margin-bottom: var(--mar-40);
+}
+
+.benefits .big-title {
+    font-size: 60px;
+}
+
+.benefits .big-title,
+.benefits .sub-title,
+.benefits .button {
+    font-weight: var(--bold);
+}
+
+.benefits .big-title,
+.benefits .sub-title,
+.benefits .text {
+    margin-bottom: var(--mar-20);
+}
+
+.button {
+    background-color: var(--purple);
+    padding: 7px 40px;
+}
+
+
+
 
 
 /* MAIN versione tablet */
